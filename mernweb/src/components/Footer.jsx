@@ -9,70 +9,44 @@ const Footer = () => {
           <footer className="py-5">
             <div className="row">
               <div className="col-3">
-                <h4>FINE ART</h4>
+                <h3>TRAVELS AGENDA</h3>
               </div>
 
               <div className="col-2">
-                <h5>Section</h5>
+                <h4>Section</h4>
                 <ul className="nav flex-column">
                   <li className="nav-item mb-2">
-                    <NavLink to="#" className="nav-link p-0 text-white">
+                    <NavLink to="/" className="nav-link p-0 text-white">
                       Home
                     </NavLink>
                   </li>
                   <li className="nav-item mb-2">
-                    <NavLink to="#" className="nav-link p-0 text-white">
-                      Features
-                    </NavLink>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <NavLink to="#" className="nav-link p-0 text-white">
-                      Pricing
-                    </NavLink>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <NavLink to="#" className="nav-link p-0 text-white">
-                      FAQs
-                    </NavLink>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <NavLink to="#" className="nav-link p-0 text-white">
+                    <NavLink to="/about" className="nav-link p-0 text-white">
                       About
+                    </NavLink>
+                  </li>
+                  </ul>
+                  </div>
+                  <div className="col-2">
+                 <ul className="nav flex-column"> 
+                  <li className="nav-item mb-2">
+                    <NavLink to="/service" className="nav-link p-0 text-white">
+                    Services
+                    </NavLink>
+                  </li>
+                  <li className="nav-item mb-2">
+                    <NavLink to="/contact" className="nav-link p-0 text-white">
+                    Contact Us
+                    </NavLink>
+                  </li>
+                  <li className="nav-item mb-2">
+                    <NavLink to="/recommend" className="nav-link p-0 text-white">
+                    Recommend
                     </NavLink>
                   </li>
                 </ul>
               </div>
 
-              <div className="col-2">
-                <h5>Section</h5>
-                <ul className="nav flex-column">
-                  <li className="nav-item mb-2">
-                    <NavLink to="#" className="nav-link p-0 text-white">
-                      Home
-                    </NavLink>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <NavLink to="#" className="nav-link p-0 text-white">
-                      Features
-                    </NavLink>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <NavLink to="#" className="nav-link p-0 text-white">
-                      Pricing
-                    </NavLink>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <NavLink to="#" className="nav-link p-0 text-white">
-                      FAQs
-                    </NavLink>
-                  </li>
-                  <li className="nav-item mb-2">
-                    <NavLink to="#" className="nav-link p-0 text-white">
-                      About
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
 
               <div className="col-4 offset-1">
                 <form>
@@ -103,19 +77,19 @@ const Footer = () => {
               <p>© 2021 Company, Inc. All rights reserved.</p>
               <ul className="list-unstyled d-flex">
                 <li className="ms-3">
-                  <NavLink className="link-light" to="#">
+                  <a link className="link-light" href="https://www.facebook.com/" target="_blank">
                     <i className="fa fa-facebook fa-2x"></i>
-                  </NavLink>
+                  </a>
                 </li>
                 <li className="ms-3">
-                  <NavLink className="link-light" to="#">
+                  <a link className="link-light" href="https://www.instagram.com/" target="_blank">
                     <i className="fa fa-instagram fa-2x"></i>
-                  </NavLink>
+                  </a>
                 </li>
                 <li className="ms-3">
-                  <NavLink className="link-light" to="#">
+                  <a link className="link-light" href="https://twitter.com/" target="_blank">
                     <i className="fa fa-twitter fa-2x"></i>
-                  </NavLink>
+                  </a>
                 </li>
               </ul>
             </div>
